@@ -6,7 +6,7 @@ import tqdm
 import spacy
 from rank_bm25 import BM25Okapi
 from tqdm import tqdm
-nlp = spacy.load("en_core_web_md")
+nlp = spacy.load("en_core_web_sm")
 import annoy
 import numpy as np
 
